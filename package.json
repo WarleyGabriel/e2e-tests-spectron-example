@@ -1,0 +1,30 @@
+{
+  "name": "demo-spectron",
+  "version": "1.0.0",
+  "description": "Demo Integration Tests with Spectron and Mocha",
+  "dependencies": {
+    "@types/mocha": "^8.0.3",
+    "allure-commandline": "^2.13.0",
+    "chai": "^4.2.0",
+    "electron": "^9.2.1",
+    "mocha": "^8.1.1",
+    "mocha-allure-reporter": "^1.4.0",
+    "mocha-multi-reporters": "^1.1.7",
+    "mochawesome": "^6.1.1",
+    "moment": "^2.27.0",
+    "prettier": "^2.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "spectron": "^11.1.0",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc -w",
+    "tests": "mocha ./dist/specs --config .mocharc.json",
+    "format": "prettier --check \"**/*.ts\" --write",
+    "report:generate": "npx allure generate --clean ./reports/allure-results -o ./reports/allure-report",
+    "report:open": "npx allure open ./reports/allure-report"
+  },
+  "license": "ISC"
+}

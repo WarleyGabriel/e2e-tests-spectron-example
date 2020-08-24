@@ -1,0 +1,9 @@
+{
+  "diff": true,
+  "extension": ["js"],
+  "package": "./package.json",
+  "timeout": 60000,
+  "ui": "bdd",
+  "reporter": "mocha-multi-reporters",
+  "reporter-options": "configFile=mocha.reporters.json"
+}
