@@ -1,8 +1,8 @@
-[![Action Status](https://github.com/WarleyGabriel/demo-spectron/workflows/CI/badge.svg)](https://github.com/WarleyGabriel/demo-spectron/actions)
+[![Action Status](https://github.com/WarleyGabriel/e2e-tests-spectron-example/workflows/CI/badge.svg)](https://github.com/WarleyGabriel/e2e-tests-spectron-example/actions)
 
-# demo-spectron
+# E2E tests with Spectron and Mocha
 
-Demo Integration Tests with Spectron and Mocha is a simple project to demonstrate how we can develop tests using [Spectron](https://www.electronjs.org/spectron) for [Electron](https://www.electronjs.org/) apps.
+This project is a simple project to demonstrate how we can develop tests using [Spectron](https://www.electronjs.org/spectron) for [Electron](https://www.electronjs.org/) apps.
 
 ## Requirements
 

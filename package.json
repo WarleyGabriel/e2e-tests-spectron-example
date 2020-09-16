@@ -1,7 +1,7 @@
 {
-  "name": "demo-spectron",
+  "name": "e2e-tests-spectron-example",
   "version": "1.0.0",
-  "description": "Demo Integration Tests with Spectron and Mocha",
+  "description": "E2E tests with Spectron and Mocha",
   "dependencies": {
     "@types/mocha": "^8.0.3",
     "allure-commandline": "^2.13.0",
